@@ -108,7 +108,7 @@ export default function Login() {
                 id="email"
                 name="email"
                 type="email"
-                placeholder="john@example.com"
+                placeholder="eben@example.com"
                 required
                 value={formData.email}
                 onChange={handleChange}
