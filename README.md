@@ -65,7 +65,7 @@
 
 Berikut adalah visualisasi skema database dan relasi antar tabel yang digunakan dalam proyek Zym Tracker.
 
-![Skema Database Zym Tracker](screenshoots/db.png)
+![Skema Database Zym Tracker](screenshots/db.png)
 
 
 **Penjelasan Relasi Utama:**
