@@ -7,7 +7,7 @@
 
 **Zym Tracker** adalah aplikasi web yang dirancang untuk membantu Anda melacak dan mengelola aktivitas olahraga. Catat setiap sesi latihan, atur jadwal mingguan, dan pantau progres Anda untuk membangun gaya hidup sehat yang konsisten.
 
-➡️ **[Lihat Live Demo](https://link-demo-anda.com)** *(Ganti dengan link aplikasi Anda)*
+➡️ **[Lihat Live Demo](https://link-demo-anda.com)**
 
 ---
 
@@ -61,6 +61,20 @@
 
 ---
 
+## 🗄️ Skema Database (ERD)
+
+Berikut adalah visualisasi skema database dan relasi antar tabel yang digunakan dalam proyek Zym Tracker.
+
+![Skema Database Zym Tracker](screenshoots/db.png)
+
+
+**Penjelasan Relasi Utama:**
+-   Tabel `users` terhubung langsung dengan sistem autentikasi bawaan Supabase (`auth.users`).
+-   Setiap `workouts` dan `schedules` terikat pada `user_id` untuk memastikan data hanya bisa diakses oleh pemiliknya.
+-   Tabel `exercises` memiliki relasi dengan tabel `workouts` untuk mencatat detail setiap sesi latihan.
+
+---
+
 ## ⚙️ Instalasi & Konfigurasi
 
 Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
@@ -87,19 +101,7 @@ npm install
 yarn install
 ```
 
-### 5. Konfigurasi Variabel Lingkungan
-Buat file baru bernama `.env.local` di direktori utama proyek dan salin konten dari `.env.example` (jika ada). Isi dengan kredensial Supabase Anda.
-
-```env
-# URL proyek Supabase Anda
-REACT_APP_SUPABASE_URL=URL_SUPABASE_ANDA
-
-# Kunci (public anon) Supabase Anda
-REACT_APP_SUPABASE_ANON_KEY=KUNCI_ANON_SUPABASE_ANDA
-```
-> Anda bisa mendapatkan URL dan Kunci ini dari dashboard proyek Supabase Anda pada bagian **Project Settings > API**.
-
-### 6. Jalankan Aplikasi
+### 5. Jalankan Aplikasi
 ```bash
 npm start
 # atau
