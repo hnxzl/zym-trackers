@@ -7,7 +7,7 @@
 
 **Zym Tracker** adalah aplikasi web yang dirancang untuk membantu Anda melacak dan mengelola aktivitas olahraga. Catat setiap sesi latihan, atur jadwal mingguan, dan pantau progres Anda untuk membangun gaya hidup sehat yang konsisten.
 
-➡️ **[Lihat Live Demo]([(https://youtu.be/ar0aAbNHun8)])**
+➡️ **[Lihat Live Demo](https://youtu.be/ar0aAbNHun8)**
 
 ---
 
