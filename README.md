@@ -1,8 +1,59 @@
-![image](https://github.com/user-attachments/assets/8a21f4e7-4dc4-48b4-bac1-486a2eeec804)
-![image](https://github.com/user-attachments/assets/18647c34-28ca-4d18-b599-7c7cba01494b)
-![image](https://github.com/user-attachments/assets/b4b97419-a82a-47ab-a17e-a06ab25e1b9f)
-![image](https://github.com/user-attachments/assets/9f38d7b2-d9f8-47f5-8267-d820a4b6d462)
-![image](https://github.com/user-attachments/assets/8a9e36e3-77f6-4602-8025-91e82532ee35)
-![image](https://github.com/user-attachments/assets/deb42484-5f94-4dee-86d1-aa05cb87e893)
-![image](https://github.com/user-attachments/assets/97405c87-846f-427e-8037-215ca010d4aa)
-![image](https://github.com/user-attachments/assets/54d65e3b-45f9-4595-ad71-ed461dc305f3)
+# 🏋️‍♂️ Zym Tracker
+
+**Zym Tracker** adalah aplikasi web untuk membantu kamu mengelola dan memantau aktivitas olahraga harian dan mingguan. Dengan fitur-fitur seperti pencatatan workout, jadwal mingguan, serta pengaturan profil, aplikasi ini dirancang untuk mendukung gaya hidup sehat dan konsisten berolahraga.
+
+## 🔍 Fitur Utama
+
+- 📝 **Pendaftaran & Login** – Sistem autentikasi pengguna yang aman.
+- 🏠 **Dashboard** – Ringkasan aktivitas pengguna dan akses cepat ke fitur utama.
+- 💪 **Create Workout** – Tambahkan jenis latihan, durasi, dan intensitas sesuai kebutuhanmu.
+- 📅 **Weekly Schedule** – Atur jadwal latihan mingguan agar tetap konsisten.
+- 👤 **Profile** – Lihat dan edit data pribadi serta progres latihan.
+- ⚙️ **Settings** – Personalisasi pengalaman pengguna.
+
+## 📸 Tampilan Aplikasi
+
+### 1. Landing Page (Index)
+Halaman pertama saat membuka web. Terdapat pengenalan singkat aplikasi serta tombol **Login** dan **Register**.
+![Index](screenshots/index.png)
+
+### 2. Create Account
+Form pendaftaran akun baru.
+![Create Account](screenshots/create_account.png)
+
+### 3. Login
+Form login bagi pengguna yang sudah memiliki akun.
+![Login](screenshots/login.png)
+
+### 4. Dashboard
+Menampilkan ringkasan aktivitas dan menu utama pengguna.
+![Dashboard](screenshots/dashboard.png)
+
+### 5. Create Workout
+Fitur untuk menambahkan latihan baru sesuai preferensi pengguna.
+![Create Workout](screenshots/create_workout.png)
+
+### 6. Weekly Schedule
+Atur dan lihat jadwal latihan per minggu.
+![Weekly Schedule](screenshots/schedule.png)
+
+### 7. Profile
+Lihat dan edit informasi pengguna.
+![Profile](screenshots/profile.png)
+
+### 8. Settings
+Sesuaikan pengaturan aplikasi.
+![Settings](screenshots/settings.png)
+
+## 🛠️ Teknologi yang Digunakan
+
+- HTML, CSS, JavaScript
+- Framework/Libraries: React.js, tailwind, GYM Api
+- Autentikasi: Supabase
+- Database: Supabase, google script, google drive
+
+## 🚀 Cara Menjalankan
+
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/hnxzl/zym-tracker.git
